@@ -3,13 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulario Encuesta</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Encuesta Cinematográfica</title>
     </head>
 
     <body>
-        <h2>Encuestas de Cine: Nominadas al Oscar 2018</h2>
+        </style>
+        <h2 style="font-family: calibri;">Encuestas de Cine: Nominadas al Oscar 2019</h2>
+        <img src="img/logocortado.png" alt="Cine" title="Logo de cine">
         <form id="Formulario" name="Formulario 1" method="POST" action="data.php">
-            <fieldset id="Datos Personales">
+            <fieldset style="font-family: calibri;" id="Datos Personales">
+                <img src="img/x2.png">
                 <legend>Datos Personales</legend>
                 <label for="nombre">Nombre</label> <br>
                 <input type="text" name="nombre" id="nombre"><br>
@@ -18,8 +22,49 @@
                 <input type="text" name="apellidos" id="apellidos"><br>
 
                 <label for="dni">DNI</label> <br>
-                <input type="text" name="dni" id="dni"><br>
+                <input type="text" name="dni" id="dni" maxlength="8"><br>
+               
+                <label for="edad">Edad</label> <br>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2"> <br>
+
+                <label for="telefono">Teléfono</label> <br>
+                <input type="text" name="telefono" id="telefono" maxlength="9">
             </fieldset>
+
+            <fieldset style="font-family:calibri;">
+                <img src="img/video.png">
+                <legend>Mejor Pelicula</legend>
+                <input type="Radio" name="Pelicula" value="11"> Black Panther<br>
+                <input type="Radio" name="Pelicula" value="22"> Green Book<br>
+                <input type="Radio" name="Pelicula" value="33"> Roma<br>
+                <input type="Radio" name="Pelicula" value="44"> Ha nacido una estrella<br>
+                <input type="Radio" name="Pelicula" value="55"> El vicio del poder<br>
+                <input type="Radio" name="Pelicula" value="66"> La favorita<br>
+            </fieldset>
+
+            <fieldset style="font-family: calibri;">
+                <img src="img/iconfinder_hidden_invisible_hide_eye_private_3994371.png">
+                <legend>Selecciona las peliculas que no hayas visto</legend>
+                <input type="checkbox" name="Pelicula" value="11"> Black Panther<br>
+                <input type="checkbox" name="Pelicula" value="22"> Green Book<br>
+                <input type="checkbox" name="Pelicula" value="33"> Roma<br>
+                <input type="checkbox" name="Pelicula" value="44"> Ha nacido una estrella<br>
+                <input type="checkbox" name="Pelicula" value="55"> El vicio del poder<br>
+                <input type="checkbox" name="Pelicula" value="66"> La favorita<br>
+            </fieldset>
+
+            <fieldset style="font-family: calibri;" id="grupo_argumento">
+                <img src="img/lapiz.png">
+                <legend>Argumento de tu pelicula favorita</legend>
+                <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
+            </fieldset>
+            <br>
+            <input type="reset" value="borrar formulario"><input type="submit" value="Enviar">
         </form>
+
+        <body style="background-color:chocolate;">
+        
+        
+        
     </body>
 </html>
