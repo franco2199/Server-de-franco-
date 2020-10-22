@@ -1,8 +1,13 @@
 body{
     margin: 30px;
-}
+    color:blue;
+    font-family: arial; color: black;
+    }
+h1 {font-family: Verdana;}
+
 p{
-    color:cadetblue;
+    
     font-family:arial;
     font-size: 15px;
+    color: red;
 }
