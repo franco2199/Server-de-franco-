@@ -1,0 +1,49 @@
+#caja1{
+    background-color: darkblue;
+    text-align: center;
+    font-family: arial;
+    color: white;
+      }
+body{
+    background-color: white;
+    font-family: arial;
+}
+#caja2{
+    font-family: arial;
+    background-color: darkblue;
+    color: white;
+      }
+#caja3{
+    font-family: arial;
+    background-color: darkblue;
+    color: white;
+      }
+#caja4{
+    font-family: arial;
+    background-color: darkblue;
+    color: white;
+      }
+#caja5{
+    font-family: arial;
+    background-color: darkblue;
+    color: white;
+      }
+#caja6{
+    font-family: arial;
+    background-color: darkblue;
+    color: white;
+     }
+#caja7{
+    font-family: arial;
+    background-color: darkblue;
+    color: white;
+      }
+img{
+    float: left;
+   }
+ a{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 315px;
+}
