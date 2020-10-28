@@ -1,0 +1,40 @@
+h1{
+color: darkblue;
+font-family: verdana;
+}
+h2{
+    color: darkblue;
+    font-family: calibri;
+}
+p{
+    float: right;
+}
+th{
+    background-color: darkblue;
+    color: white;
+
+}
+tr{
+    font-family: calibri;
+}
+td{
+    font-family: calibri;
+}
+tfoot,tr{
+    font-family: calibri;
+}
+p{
+    float: right;
+   font-family: calibri;
+}
+h4{
+    background-color: darkblue;
+    margin: auto;
+    color: white;
+    width: 150px;
+    float: left;
+  
+}
+img{
+    float: left;
+}
