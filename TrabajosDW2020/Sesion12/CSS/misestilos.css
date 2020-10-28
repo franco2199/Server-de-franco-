@@ -1,0 +1,56 @@
+h1{
+   font-family: calibri; 
+   background-color: orange;
+   color:white; 
+   
+}
+
+body{
+    background-color: black;
+}
+#img{
+    float: right;
+    
+    
+}
+
+fieldset{
+    font-family: calibri;
+    color: white;
+    
+
+}
+legend{
+    background-color: orange;
+}
+/*
+div, input{
+    float: ;
+    background-color: black;
+    color: white;
+    margin: auto;
+} 
+*/
+#caja0{
+    float: inline-start;
+    margin: auto;
+    
+    width: 900px;
+    
+}
+#caja1{
+    float: unset;
+    margin: auto;
+    width: 900px;
+}
+#caja2{
+    float: unset;
+    margin: auto;
+    width: 900px;
+}
+#caja3{
+    float: unset;
+    margin: auto;
+    width: 900px;
+}
+
