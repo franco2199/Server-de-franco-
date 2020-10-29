@@ -1,11 +1,49 @@
-p{
-    background: green;
+h1{
+    font-family: verdana;
+    background-color: red;
+    color: white;
+    height: 50px;
+
+}
+a{
+   float: left;
+    background-color: gray;
+    font-size: 15px;
+    color: white;
+    width: 182px;  
+    font-family: verdana;
+    height: 25px;
+    
+}
+#caja0{
+    font-family: calibri;
+    font-size: 30px;
+    color: red;
+    margin: 5px;
+}
+#caja1{
+    font-family: calibri;
+    font-size: 30px;
+    margin: 5px;
+   
+}
+p{ 
+    font-family: calibri;
+    font-size: 18px;
+
 }
 img{
     float: right;
+    width: 600px;
+    height: 300px;
+    margin: 10px;
 }
-#caja
+#caja2
 {
-    background: yellow;
+    background:red;
+    color: white;
     float: right;
+    font-family: verdana;
+    width: auto;
+    
 }
