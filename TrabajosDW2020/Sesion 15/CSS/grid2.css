@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    grid-template-columns: 15% 35% 15%;
+    grid-template-rows: 150px 200px 60px;
+    grid-template-areas: "head head head"
+    "menu contenedor enlaces"
+    "foot foot foot";
+
+}
+.a{
+    grid-area: head;
+    background-color:rgb(153, 59, 230);
+    color: white;
+  }
+
+.b{
+    grid-area: menu;
+    background-color:skyblue;
+    color: white;
+  }
+
+.c{
+    grid-area: contenedor;
+    background-color: rgb(88, 2, 122);
+    color: white;
+  }
+
+.d{
+    grid-area: foot;
+    background-color: rgb(182, 68, 211);
+    color: white;
+  }
+.e{
+    grid-area: enlaces;
+    background-color: rgb(158, 1, 158);
+    color: white;
+  }
+.bordes{
+    border: 0px solid;
+}
