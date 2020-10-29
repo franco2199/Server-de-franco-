@@ -2,12 +2,21 @@ h1{
 color: darkblue;
 font-family: verdana;
 }
+table{
+    border: 1px solid;
+}
 h2{
     color: darkblue;
     font-family: calibri;
 }
 p{
-    float: right;
+   float: right;
+   font-family: calibri;
+}
+#caja1{
+    font-family: calibri;
+    font-size: 13px;
+  
 }
 th{
     background-color: darkblue;
@@ -19,13 +28,7 @@ tr{
 }
 td{
     font-family: calibri;
-}
-tfoot,tr{
-    font-family: calibri;
-}
-p{
-    float: right;
-   font-family: calibri;
+    border: 1px solid;
 }
 h4{
     background-color: darkblue;
