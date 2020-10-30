@@ -14,13 +14,16 @@ h1{
 h2{
     font-family: verdana;
     font-size: 25px;
+    
 }
 h3{
     font-family: Verdana;
     font-size: 15px;
+   
 }
 p{
     font-family: calibri;
+   
 }
 nav{
     float: unset;
@@ -37,15 +40,39 @@ section, img{
     float: right;
     background-color: cyan;
     width: 220px;
-    height: 316px;
+    height: 370px;
+    font-family: calibri;
     
 }
 #caja3{
     float:right;
     background-color: cyan;
     width: 220px;
-    height: 316px;
-}   
+    height: 368px;
+    font-family: calibri;
+}
 #caja4{
+    background-color: cyan;
+}   
+#caja5{
+    float: left;
+    width: 1263px;
+    background-color: black;
+    color: white;
+
+}
+.Footer{
+    float: left;
+    font-family: calibri;     
+    background-color: cyan;
+    width: 1263px;   
+}
+.img{
     float: left;
 }
+section{
+    float: left;
+}
+
+
+
