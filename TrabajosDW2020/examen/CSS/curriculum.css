@@ -5,7 +5,7 @@
 header{
     background-color:darkcyan;
     height: 200px;
-  
+    
 }
 h1{
     margin: auto;
@@ -15,12 +15,15 @@ h1{
 h2{
     font-family: verdana;
     font-size: 25px;
-    
+   
 }
 h3{
     font-family: calibri;
-    font-size: 18px;  
+    font-size: 18px;
+  
+   
 }
+
 
 p{
     font-family: calibri;
@@ -46,19 +49,20 @@ section, img{
     float: right;
     background-color: cyan;
     width: 220px;
-    height: 370px;
+    height: 139px;
     font-family: calibri;
-   
+ 
     
 }
 #caja3{
     float:right;
     background-color: cyan;
     width: 220px;
-    height: 368px;
-    font-family: calibri;
-  
+    height: 420px;
+    font-family: calibri; 
+    
 }
+
 
 #caja4{
     float: left;
@@ -79,6 +83,14 @@ section, img{
 section{
     float: left;
 }
+table{
+    border: 1px solid;
+}
+th{
+    background-color: darkblue;
+    color: white;
 
-
-
+}
+tr{
+    font-family: calibri;
+}

@@ -5,7 +5,7 @@
 header{
     background-color:darkcyan;
     height: 200px;
-  
+    
 }
 h1{
     margin: auto;
@@ -15,12 +15,15 @@ h1{
 h2{
     font-family: verdana;
     font-size: 25px;
-    
+   
 }
 h3{
     font-family: calibri;
-    font-size: 18px;  
+    font-size: 18px;
+  
+   
 }
+
 
 p{
     font-family: calibri;
@@ -36,7 +39,7 @@ nav{
 input{
     background-color: black;
     color: white;
-    height: 50px;
+    height: 50px;  
     width: 250px;
 }
 section, img{
@@ -46,23 +49,26 @@ section, img{
     float: right;
     background-color: cyan;
     width: 220px;
-    height: 370px;
+    height: 170px;
     font-family: calibri;
-   
+ 
     
 }
 #caja3{
-    float:right;
+    float: right;
     background-color: cyan;
     width: 220px;
-    height: 368px;
+    height: 160px;
+    font-family: calibri; 
+    
+}
+th{
     font-family: calibri;
-  
 }
 
 #caja4{
     float: left;
-    width: 1263px;
+    width: 1280px;
     background-color: black;
     color: white;
 
@@ -71,7 +77,7 @@ section, img{
     float: left;
     font-family: calibri;     
     background-color: darkcyan;
-    width: 1263px;   
+    width: 1280px;   
 }
 .img{
     float: left;
@@ -79,6 +85,46 @@ section, img{
 section{
     float: left;
 }
-
-
-
+tr{
+    font-family: calibri;
+}
+#ver1{
+    background-color: aqua;
+    height: 40px;  
+    width: 70px;
+    float: right;
+   margin: 30px;
+    font-size: 25px;
+}
+#ver2{
+    background-color: aqua;
+    height: 40px;  
+    width: 70px;
+    float: right;
+   margin: 30px;
+    font-size: 25px;
+}
+#ver3{
+    background-color: aqua;
+    height: 40px;  
+    width: 70px;
+    float: right;
+   margin: 30px;
+    font-size: 25px;
+}
+#ver4{
+    background-color: aqua;
+    height: 40px;  
+    width: 70px;
+    float: right;
+   margin: 30px;
+    font-size: 25px;
+}
+#ver5{
+    background-color: aqua;
+    height: 40px;  
+    width: 70px;
+    float: right;
+   margin: 30px;
+    font-size: 25px;
+}
