@@ -38,6 +38,11 @@ h4{
     float: left;
   
 }
+#info{
+    float: right;
+    width: 600px;
+  
+}
 img{
     float: left;
 }
