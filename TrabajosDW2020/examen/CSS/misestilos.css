@@ -46,7 +46,7 @@ section, img{
     float: right;
     background-color: cyan;
     width: 220px;
-    height: 370px;
+    height: 375px;
     font-family: calibri;
    
     
@@ -55,7 +55,7 @@ section, img{
     float:right;
     background-color: cyan;
     width: 220px;
-    height: 368px;
+    height: 380px;
     font-family: calibri;
   
 }
@@ -78,6 +78,16 @@ section, img{
 }
 section{
     float: left;
+}
+#inicio{
+    float: right;
+    height: auto;
+    width: auto;
+    background-color: darkcyan;
+    color: black;
+    font-family: verdana;
+    font-size: 15px;
+    
 }
 
 

@@ -136,3 +136,13 @@ label{
     margin: 80px;
     font-family: calibri;
 }
+#inicio{
+    float: right;
+    height: auto;
+    width: auto;
+    background-color: darkcyan;
+    color: black;
+    font-family: verdana;
+    font-size: 15px;
+    
+}

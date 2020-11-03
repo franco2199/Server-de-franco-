@@ -1,0 +1,143 @@
+#caja1{
+    float: left;
+    
+}
+header{
+    background-color:darkcyan;
+    height: 200px;
+    
+}
+h1{
+    margin: auto;
+    font-family: verdana;
+    height: auto;
+}
+h2{
+    font-family: verdana;
+    font-size: 20px;
+    height: 10px;
+   
+}
+h3{
+    font-family: calibri;
+    font-size: 18px;
+  
+   
+}
+p{
+    font-family: calibri;
+   
+}
+nav{
+    float: unset;
+    background-color: black;
+    font-family: verdana;
+    font-size: 20px;
+    height: 50px;  
+}
+input{
+    background-color: black;
+    color: white;
+    height: 50px;  
+    width: 250px;
+}
+
+
+#caja2{
+    float: right;
+    background-color: cyan;
+    width: 220px;
+    height: 180px;
+    font-family: calibri;
+ 
+    
+}
+#caja3{
+    float: right;
+    background-color: cyan;
+    width: 220px;
+    height: 322px;
+    font-family: calibri; 
+    
+}  
+#caja4{
+    float: left;
+    width: 1263px;
+    background-color: black;
+    color: white;
+
+}
+.Footer{
+    float: left;
+    font-family: calibri;     
+    background-color: darkcyan;
+    width: 1263px;   
+}
+.img{
+    float: left;
+}
+section{
+    float: left;
+}
+tr{
+    font-family: calibri;
+}
+
+#email{
+    background-color:white;
+    width: 400px;
+    height: 25px;
+   color: gray;
+  
+}
+#contraseña{
+    background-color:white;
+    width: 400px;
+    height: 25px;
+   color: gray;
+}
+#ingresar{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    font-family: calibri;
+    font-size: 22px;
+}
+#registrarse{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    font-family: calibri;
+    font-size: 22px;
+}
+
+label{
+    font-family: calibri;
+    font-size: 18px;
+  
+}
+strong{
+    color: gray;
+    font-size: 18px;
+}
+
+
+#inicio{
+    float: right;
+    height: auto;
+    width: auto;
+    background-color: darkcyan;
+    color: black;
+    font-family: verdana;
+    font-size: 15px;
+    
+}
+#sesion{
+    background-color:skyblue;
+    float: right;
+    margin: 70px;
+    width: 480px;
+    height: 360px;
+    border: 1px solid;
+    
+}

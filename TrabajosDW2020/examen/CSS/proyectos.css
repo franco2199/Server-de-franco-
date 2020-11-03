@@ -128,3 +128,13 @@ tr{
    margin: 30px;
     font-size: 25px;
 }
+#inicio{
+    float: right;
+    height: auto;
+    width: auto;
+    background-color: darkcyan;
+    color: black;
+    font-family: verdana;
+    font-size: 15px;
+    
+}
