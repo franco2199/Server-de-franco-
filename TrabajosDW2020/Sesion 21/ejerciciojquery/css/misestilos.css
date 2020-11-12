@@ -1,0 +1,27 @@
+body { 
+    background-color:#a8dadc;font-family:Arial;font-size:10pt; 
+    font-size: 18px;
+}
+#log { 
+    color:white;background-color:red; 
+}
+#btnSeleccionar{
+    background-color:#1d3557;
+    color: white;
+    width: 200px;
+    height: 40px;
+
+}
+#btnEnviar{
+    background-color:#1d3557;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+#btnReset{
+    background-color:#1d3557;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+

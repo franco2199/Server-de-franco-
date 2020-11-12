@@ -1,0 +1,17 @@
+body{
+    font-family: calibri;
+    background-color: #d8e2dc; 
+
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align:center;
+
+}
+legend{
+    text-align: center;
+}
+#Formulario{
+    text-align: center;
+}
