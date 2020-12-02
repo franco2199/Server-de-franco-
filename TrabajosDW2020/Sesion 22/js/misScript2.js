@@ -1,39 +1,39 @@
 function guardarDato(){
     var nombre = document.getElementById("nombre").value;
     var movil = document.getElementById("movil").value;
-    var email = document.getElementById("email").value;
-    localStorage.setItem(nombre, movil, email);
-    document.getElementById("nombre").value="";
-    document.getElementById("movil").value="";
-    document.getElementById("email").value="";
+    localStorage.setItem(nombre, movil);
+    document.getElementById("nombre").value = "";
+    document.getElementById("movil").value = "";
     actualizarDatos();
 }
-function recuperarDatos(){
+
+function recuperarDato(){
     var nombre = document.getElementById("nombre").value;
     localStorage.getItem(nombre);
     document.getElementById("movil").value = localStorage.getItem(nombre);
-    document.getElementById("email").value = localStorage.getItem(nombre);
-    
 }
-function eliminarDatos(){
+
+function eliminarDato(){
     var nombre = document.getElementById("nombre").value;
     localStorage.removeItem(nombre);
     actualizarDatos();
 }
+
 function eliminarTodo(){
     localStorage.clear();
     actualizarDatos();
 }
+
 function actualizarDatos(){
     var registro = "";
-    if(localStorage.length === 0) {
+    if (localStorage.length === 0){
         registro += '<li>Vacío</li>';
-    }else{
-        for (var i = 0; i <=localStorage.length -1; i++){
+    } else{
+        for (var i = 0; i<=localStorage.length-1; i++ ){
             var key = localStorage.key(i);
             registro += '<li>' + '<span class="nom">' + key + '</span>'
             + '<span class="nom">' + localStorage.getItem(key) + '</span>' + '</li><br>';
         }
     }
-    document.getElementById('contactos').innerHTML = registro;
+    document.getElementById('contactos').innerHTML=registro;
 }

@@ -3,18 +3,14 @@ span {
     display: block;
     float: left;
     padding-left: 4px;
-    font-family: calibri;
 }
 
 .nom{
-    background-color: darkgray; 
-    width: 175px;   
+    background-color: darkgray;
 }
 
 .titu{
     background-color: #0df39b;
-    width: 175px;
-   
 }
 
 li{
@@ -25,12 +21,4 @@ li{
 ul{
     margin: 0px;
     padding-left: 0px;
-}
-h3{
-    font-family: calibri;
-    font-size: 25px;
-    margin: 5px;
-}
-body{
-    font-family: calibri;
 }
