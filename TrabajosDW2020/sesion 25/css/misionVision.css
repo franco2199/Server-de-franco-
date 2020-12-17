@@ -1,0 +1,21 @@
+#img1{
+    height: 500px ;
+    width: 400px;
+    float: left;
+  
+}
+#img2{
+    height: 500px ;
+    width: 400px;
+    float: left;
+}
+p{
+    font-family: calibri;
+    font-size: 18px;
+   
+}
+h2{
+    color: red;
+    font-family: calibri;
+    font-size: 25px;
+}
